@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Aurelia HOUSE | A quieter kind of luxuary</title>
+</head>
+<body>
+    <header class=" sticky top-0 z-1 py-7  bg-[#f7f3ed] border-[#dddcd4] border-b">
+         <div class="m-auto max-w-[1364px]">
+            <div class="px-[15px] mb-[25px] md:mb-[0px] lg:px-[93px] items-center justify-between flex">
+            <a href="#" class=" flex items-center gap-[10px] text-[15px] md:text-[14px] font-sans"><img src="images/logo.png" class="w-[36px] h-[36px]" alt="">AURELIA<i class="font-light">HOUSE</i></a>
+         <div class="md:gap-[20px] lg:gap-[39px] md:block hidden md:flex">
+            <a href="index.html" class="text-[#c16848] text-[12px] text-sans">Home</a>
+            <a href="index.html" class="hover:text-[#c16848] text-[12px] text-sans">The House</a>
+            <a href="Rooms.html" class="hover:text-[#c16848] text-[12px] text-sans">Rooms & Suites</a>
+            <a href="spaces.html" class="hover:text-[#c16848] text-[12px] text-sans">Dining</a>
+            <a href="Findus.html" class="hover:text-[#c16848] text-[12px] text-sans">Experiences</a>
+            <a href="Findus.html" class="hover:text-[#c16848] text-[12px] text-sans">Contact</a>
+         </div>
+         <button><a href="Findus.html#enquire" class=" border border-[#b49771] text-[12px] md:px-[18px] md:px-[14px] p-[10px] md:p-[14px] font-sans">Make an enquiry ↗</a></button>
+         </div>
+         <div class="gap-[20px] justify-center flex block md:hidden ">
+            <a href="index.html" class="text-[#c16848] text-[10px] text-sans">Home</a>
+            <a href="index.html" class="hover:text-[#c16848] text-[10px] text-sans">The House</a>
+            <a href="Rooms.html" class="hover:text-[#c16848] text-[10px] text-sans">Rooms & Suites</a>
+            <a href="spaces.html" class="hover:text-[#c16848] text-[10px] text-sans">Dining</a>
+            <a href="Findus.html" class="hover:text-[#c16848] text-[10px] text-sans">Experiences</a>
+            <a href="Findus.html" class="hover:text-[#c16848] text-[10px] text-sans">Contact</a>
+         </div>
+         </div>
+    </header>
+    <section>
+        <div class="max-w-[1364px] m-auto relative font-serif">
+            <img src="images/hotel-exterior.jpg" class="h-[300px] md:h-[690px] w-full" alt="">
+            <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/25 to-black/10">
+           </div>
+           <div class="absolute top-[18px] md:top-[180px] ml-[20px] md:ml-[60px] lg:ml-[60px]">
+                <p class="text-[#d8c4a6] text-[9px] mb-[9px]">JAIPUR · RAJASTHAN</p>
+                <h1 class="text-white text-[30px] md:text-[65px] lg:text-[95px] leading-[1.2] mb-[20px]">A quieter kind <br> of <span class="text-[#d8c4a6]">luxury.</span></h1>
+                <p class="text-white text-[10px] mb-[28px]">A private world behind the pink sandstone walls. <br> Come as you are. Stay a little longer.</p>
+                <a href="#"><button class="bg-white px-[20px] py-[10px] text-[10px]">Discover the house <span class="ml-[10px]">↗</span></button></a>
+            </div>
+            <!-- <div class="absolute bottom-0 left-16 font-sans flex text-[#d4dede] text-[10px] gap-[10px]">
+                26°55' N   75°49' E
+                <p class="text-[#e5d6c1]"> THE PINK CITY</p>
+            </div>
+            <div class="absolute bottom-0 right-16 font-sans flex text-white text-[10px] gap-[10px]">
+                1
+                <i class="text-[#9d7958]">-</i>
+                2
+            </div> -->
+        </div>
+    </section>
+    <section>
+        <div class="max-w-[1364px] m-auto flex flex-col lg:flex-row gap-4 md:gap-4 lg:gap-25 justify-center py-[24px] px-10 md:px-40 lg:px-30 bg-[#efebe4] font-serif">
+            <div class="flex text-center md:pr-20 lg:pr-0 flex-col">
+            <span class="text-[9px] lg:text-start text-[#b49e8b]">YOUR STAY, AT YOUR PACE</span>
+            <span class="text-[19px] lg:text-start">A room with a view awaits.</span>
+            </div>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 md:gap-5 lg:gap-20">
+                <article>
+                <p class="text-[9px] text-[#c7c2b7]">ARRIVAL</p>
+                <input type="date" class="text-[14px] border-[#c7c2b7] border-b">
+            </article>
+            <article>
+                <p class="text-[9px] text-[#c7c2b7]">DEPARTURE</p>
+                <input type="date" class="text-[14px] border-[#c7c2b7] border-b">
+            </article>
+            <article>
+                <p class="text-[9px] text-[#c7c2b7]">GUESTS</p>
+                <select name="guest" class="text-[14px] border-[#c7c2b7] border-b">
+                    <option>2 guests</option>
+                    <option>1 guests</option>
+                    <option>3 guests</option>
+                    <option>4 guests</option>
+                </select>
+            </article>
+            <a href="#"><button class="text-white text-[9px] bg-black py-[12px] px-[25px]">Enquire <span class="ml-[10px] text-[#b49771]">↗</span></button></a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="max-w-[1364px] font-serif bg-[#f7f3ed] m-auto gap-0 md:gap-10 lg:gap-30 px-3 md:px-25 lg:px-20 leading-[1] justify-center py-10 lg:py-20 flex flex-col lg:flex-row">
+            <img src="images/spa-suite.jpg" class="max-w-[617px] h-[300px] md:h-[510px]" alt="">
+            <div class="mt-10 md:mt-0 lg:mt-10">
+                <p class="text-[#b49771] text-[10px] text-center lg:text-start">A PLACE TO EXHALE</p>
+                <h2 class="text-[34px] md:text-[44px] lg:text-[64px] mt-[18px] text-center lg:text-start mb-[18px] ">Somewhere between <span class="text-[#b49771]">here</span> and a dream.</h2>
+                <p class="text-[#656a63] mb-[10px] md:mb-[50px] text-center lg:text-start mt-[20px] leading-[2] text-[12px]">Set in the heart of Jaipur, Aurelia House is an invitation to slow down. Find us behind carved stone screens, where courtyard breakfasts turn into golden evenings and the Aravalli hills frame the horizon.</p>
+                <div class="text-center lg:text-start"><a href="#" class="text-[12px] border-b border-[#cac3b6]">Get to know us ↗</a></div>
+                <div class="mt-5 md:mt-10 text-center lg:text-start">
+                    <span class="text-[#b49771] text-[26px]">Aurelia</span>
+                    <p class="mt-[10px] text-[10px] text-[#656a63]">YOUR HOSTS, ALWAYS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="max-w-[1364px] m-auto bg-[#1b3c34] p-5 md:p-20">
+            <div class="flex flex-col md:flex-row justify-between gap-4 font-serif">
+                <article>
+                    <p class="text-[#b49771] text-center md:text-start text-[10px]">A PLACE OF YOUR OWN</p>
+                    <h2 class="text-[28px] md:text-[34px] text-center md:text-start lg:text-[62px] leading-[1.2] text-white">Stay a little <br> <span class="text-[#b49771]">closer to the city.</span></h2>
+                </article>
+                <article class="items-end justify-center md:justify-start flex">
+                    <a href="#"><button class="border-[#98a7a3] border text-[10px] p-[8px] md:p-[15px] text-white mb-[20px]">Explore rooms <span class="text-[#b49771]">↗</span></button></a>
+                </article>
+            </div>
+            <div class="font-serif grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-5 md:pt-10">
+                <article class="relative overflow-hidden max-w-[386px]">
+                    <div class="w-full h-[450px]"><img src="images/hotel-room.jpg" class="h-full w-full hover:scale-500" alt=""></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent"></div>
+                    <div class="absolute bottom-10 left-6 leading-[1.5]">
+                        <p class="text-[#d8c4a6] text-[10px] font-sans">1 — 06</p>
+                        <h3 class="my-1 text-[28px] text-white">The Garden Room</h3>
+                        <p class="text-white text-[10px]">Quiet mornings, a private terrace, and room to breathe.</p>
+                        <span class="text-[14px] mt-[10px] text-white font-sans flex">₹16,500 <p class="text-[#d8c4a6] text-[6px] pl-[4px] pt-[6px]">/ NIGHT</p></span>
+                        <a href="#" class="text-white text-[8px]">DISCOVER <span class="ml-[5px] text-[#d8c4a6]">↗</span></a>
+                    </div>
+                </article>
+                <article class="relative overflow-hidden max-w-[386px]">
+                    <div class="hover:scale-106"><img src="images/belvedere-suite.jpg" class="w-[386px] h-[450px] hover:scale-106" alt=""></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent"></div>
+                    <div class="absolute bottom-10 left-6 leading-[1.5]">
+                        <p class="text-[#d8c4a6] text-[10px] font-sans">2 — 06</p>
+                        <h3 class="my-1 text-[28px] text-white">The Jharokha Suite</h3>
+                        <p class="text-white text-[10px]">Wake to Jaipur. Stay for the last light.</p>
+                        <span class="text-[14px] mt-[10px] text-white font-sans flex">₹22,500 <p class="text-[#d8c4a6] text-[6px] pl-[4px] pt-[6px]">/ NIGHT</p></span>
+                        <a href="#" class="text-white text-[8px]">DISCOVER <span class="ml-[5px] text-[#d8c4a6]">↗</span></a>
+                    </div>
+                </article>
+                <article class="relative overflow-hidden max-w-[386px]">
+                    <div><img src="images/hotel-room-2.jpg" class="w-[386px] h-[450px] hover:scale-102" alt=""></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent"></div>
+                    <div class="absolute bottom-10 left-6 leading-[1.5]">
+                        <p class="text-[#d8c4a6] font-sans text-[10px]">3 — 06</p>
+                        <h3 class="my-1 text-[28px] text-white">The Belvedere</h3>
+                        <p class="text-white text-[10px]">A little more space to make your own.</p>
+                        <span class="text-[14px] mt-[10px] font-sans text-white flex">₹34,000 <p class="text-[#d8c4a6] text-[6px] pl-[4px] pt-[6px]">/ NIGHT</p></span>
+                        <a href="#" class="text-white text-[8px]">DISCOVER <span class="text-[#d8c4a6] ml-[5px]">↗</span></a>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
